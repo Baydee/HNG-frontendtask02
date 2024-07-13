@@ -1,0 +1,99 @@
+.eye-am-that,
+.image-9-icon {
+  align-self: stretch;
+  position: relative;
+}
+.image-9-icon {
+  height: 29.438rem;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.eye-am-that {
+  font-size: var(--body-medium-bold-size);
+  line-height: 1.5rem;
+}
+.natural-magnetic-eyelashesdel,
+.reusable-up-to {
+  margin: 0;
+}
+.all-length-available,
+.natural-magnetic-eyelashesdel-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 1rem;
+}
+.featured-product-details {
+  width: 20.688rem;
+  height: 4.938rem;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.price4 {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 2rem;
+}
+.prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.div4 {
+  position: relative;
+  font-size: var(--body-big-medium-size);
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 4.375rem;
+  white-space: nowrap;
+}
+.makeup-prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--hng-colour-secondary7-grey-070);
+}
+.button11 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 4.938rem;
+}
+.component-122 {
+  align-self: stretch;
+  box-shadow: var(--shadow-small);
+  border-radius: var(--br-base);
+  background-color: var(--hgn-colour-secondary5-030);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  white-space: nowrap;
+  font-size: var(--body-medium-bold-size);
+}
+.featured-product-images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-small-regular-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}

@@ -1,0 +1,278 @@
+.explore-categories1 {
+  position: relative;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+.explore-categories-wrapper {
+  align-self: stretch;
+  border-radius: 0 var(--br-5xl) var(--br-5xl) var(--br-5xl);
+  background-color: var(--hgn-secondary6-030);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+  white-space: nowrap;
+}
+.look-beautiful-and1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--subheading-small-regular-size);
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.category {
+  width: 27.563rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.categories-list,
+.frame-child1 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.categories-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.frame-child1 {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button23 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 2.813rem;
+}
+.component-21,
+.frame-parent9 {
+  display: flex;
+  align-items: center;
+}
+.component-21 {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-13xl);
+}
+.frame-parent9 {
+  align-self: stretch;
+  height: 49.625rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.off-all-all2 {
+  position: relative;
+  line-height: 1.5rem;
+}
+.off-all-all-purchase-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-5xs) 0;
+  font-size: var(--body-medium-bold-size);
+}
+.frame-parent8 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 23.188rem;
+  max-width: 100%;
+}
+.categories-list-parent,
+.frame-parent7 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.frame-parent7 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-121xl);
+  font-size: var(--subheading-small-regular-size);
+}
+.categories-list-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+}
+.on-purchase-banner-placeholder {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button24 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 3.125rem;
+}
+.component-33 {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-10xl);
+}
+.on-purchase-banner-placeholder-parent {
+  align-self: stretch;
+  height: 49.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.off-on-all2 {
+  position: relative;
+  line-height: 1.5rem;
+}
+.off-on-all-purchase-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-5xs) 0;
+  font-size: var(--body-medium-bold-size);
+}
+.frame-parent11 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 23.188rem;
+  max-width: 100%;
+}
+.frame-parent10 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-112xl);
+  font-size: var(--subheading-small-regular-size);
+}
+.categories,
+.categories-frame,
+.frame-parent10 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.categories {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-47xl);
+}
+.categories-frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-60xl) var(--padding-112xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-small-medium-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}
+@media screen and (max-width: 1225px) {
+  .frame-parent7 {
+    gap: var(--gap-51xl);
+  }
+  .frame-parent10 {
+    gap: var(--gap-46xl);
+  }
+  .categories-frame {
+    padding-bottom: var(--padding-66xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .categories-frame {
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent9 {
+    gap: var(--gap-5xl);
+  }
+  .frame-parent8 {
+    min-width: 100%;
+  }
+  .frame-parent7 {
+    gap: var(--gap-16xl);
+  }
+  .categories-list-parent {
+    gap: var(--gap-4xl);
+  }
+  .on-purchase-banner-placeholder-parent {
+    gap: var(--gap-5xl);
+  }
+  .frame-parent11 {
+    min-width: 100%;
+  }
+  .categories,
+  .frame-parent10 {
+    gap: var(--gap-14xl);
+  }
+  .categories-frame {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .button23,
+  .look-beautiful-and1 {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .button23 {
+    line-height: 1.188rem;
+  }
+  .frame-parent7 {
+    gap: var(--gap-mid);
+  }
+  .button24 {
+    font-size: var(--font-size-lgi);
+    line-height: 1.188rem;
+  }
+  .categories,
+  .frame-parent10 {
+    gap: var(--gap-base);
+  }
+}

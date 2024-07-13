@@ -1,0 +1,57 @@
+.option-icon {
+  width: 6.875rem;
+  height: 6.688rem;
+  position: relative;
+  border-radius: var(--br-305xl);
+  object-fit: contain;
+}
+.nationwide-delivery {
+  align-self: stretch;
+  position: relative;
+  line-height: 1rem;
+}
+.free-and-fast {
+  position: relative;
+  line-height: 1rem;
+  text-align: left;
+}
+.option-details {
+  align-self: stretch;
+  background-color: var(--hgn-colour-secondary5-020);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button13 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 5.063rem;
+}
+.component-11,
+.options {
+  display: flex;
+  align-items: center;
+}
+.component-11 {
+  border-radius: var(--br-base);
+  background-color: var(--hgn-colour-secondary5-020);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-sm);
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--body-medium-bold-size);
+}
+.options {
+  width: 12.75rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--footer-big-bold-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}

@@ -1,0 +1,98 @@
+.image-11-icon,
+.thou-your-sins {
+  align-self: stretch;
+  position: relative;
+}
+.image-11-icon {
+  height: 29.438rem;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.thou-your-sins {
+  font-size: var(--body-medium-bold-size);
+  line-height: 1.5rem;
+}
+.heavenly-beauty-allure {
+  white-space: pre-wrap;
+}
+.all-shades-available4,
+.heavenly-beauty-allure {
+  align-self: stretch;
+  position: relative;
+  line-height: 1rem;
+}
+.thou-your-sins-be-as-scarlet-r-parent {
+  width: 20.688rem;
+  height: 4.938rem;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.price5 {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 2rem;
+}
+.price-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.div5 {
+  position: relative;
+  font-size: var(--body-big-medium-size);
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 4.375rem;
+  white-space: nowrap;
+}
+.frame-parent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--hng-colour-secondary7-grey-070);
+}
+.button12 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 4.938rem;
+}
+.component-123 {
+  align-self: stretch;
+  box-shadow: var(--shadow-small);
+  border-radius: var(--br-base);
+  background-color: var(--hgn-colour-secondary5-030);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  white-space: nowrap;
+  font-size: var(--body-medium-bold-size);
+}
+.featured-product-images1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-small-regular-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}

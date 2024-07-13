@@ -1,0 +1,134 @@
+.rectangle-div {
+  align-self: stretch;
+  width: 90rem;
+  position: relative;
+  background-color: var(--hgn-secondary6-020);
+  display: none;
+  max-width: 100%;
+}
+.frame-icon {
+  height: 4.375rem;
+  width: 13.313rem;
+  position: relative;
+  z-index: 1;
+}
+.button20 {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  color: inherit;
+  display: inline-block;
+  min-width: 2.75rem;
+}
+.component-61 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-13xl);
+}
+.button21 {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  color: inherit;
+  display: inline-block;
+  min-width: 5.875rem;
+  white-space: nowrap;
+}
+.component-73 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-6xs);
+}
+.button22 {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  color: inherit;
+  display: inline-block;
+  min-width: 2.313rem;
+}
+.component-6-parent,
+.component-81 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component-81 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-17xl);
+}
+.component-6-parent {
+  margin: 0;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-medium-bold-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}
+.person-icon1 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.heart-icon2,
+.shopping-bag-tag1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+.shopping-bag-tag1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent5,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--hgn-secondary6-020);
+  justify-content: space-between;
+  padding: 0 var(--padding-33xl) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 750px) {
+  .component-6-parent {
+    display: none;
+  }
+  .rectangle-parent {
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

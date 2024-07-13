@@ -1,0 +1,68 @@
+.frame-inner {
+  align-self: stretch;
+  height: 43.625rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 5.75rem;
+}
+.component-4,
+.frame-parent3 {
+  display: flex;
+  align-items: center;
+}
+.component-4 {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xs);
+}
+.frame-parent3 {
+  align-self: stretch;
+  height: 46.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+}
+.off-on-all {
+  position: relative;
+  line-height: 1.5rem;
+}
+.off-on-all-purchase-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-5xs) 0;
+  font-size: var(--body-medium-bold-size);
+}
+.offer-pair {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--subheading-small-regular-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}
+@media screen and (max-width: 450px) {
+  .button5 {
+    font-size: var(--font-size-lgi);
+    line-height: 1.188rem;
+  }
+}

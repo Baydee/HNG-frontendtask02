@@ -1,0 +1,712 @@
+.checkout,
+.text {
+  position: relative;
+}
+.text {
+  width: 0;
+  height: 0;
+  line-height: 2rem;
+  display: none;
+}
+.checkout {
+  margin: 0;
+  font-size: inherit;
+  line-height: 3.5rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.checkout-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-8xs) var(--padding-2xl);
+  text-align: center;
+  font-size: var(--heading-medium-regular-size);
+}
+.already-registered,
+.sign-into-your {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.sign-into-your {
+  line-height: 1.75rem;
+}
+.already-registered-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.already-registered-parent {
+  row-gap: 20px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-29xl) var(--padding-2xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--subheading-small-regular-size);
+}
+.tick-square-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  min-height: 1.5rem;
+}
+.use-the-shipping {
+  position: relative;
+  line-height: 1.5rem;
+}
+.tick-square-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.checkbox-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.create-an-account {
+  position: relative;
+  line-height: 1.5rem;
+}
+.checkbox-parent,
+.frame-div,
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox-parent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.frame-div,
+.frame-parent1 {
+  max-width: 100%;
+}
+.frame-parent1 {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.frame-div {
+  flex-direction: row;
+  padding: 0 var(--padding-xs) var(--padding-38xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: var(--body-medium-bold-size);
+}
+.shipping-method {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.shipping-method-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 1.062rem;
+  font-size: var(--subheading-small-regular-size);
+}
+.checkbox-icon1,
+.checkbox-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.checkbox-icon2 {
+  z-index: 1;
+}
+.standard-shipping {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.standard-shipping1,
+.standard-shipping2 {
+  position: relative;
+  line-height: 1.5rem;
+}
+.standard-shipping2 {
+  z-index: 1;
+  margin-left: -8.188rem;
+}
+.shipping-options,
+.shipping-options-wrapper,
+.standard-shipping-labels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shipping-options {
+  gap: var(--gap-5xs);
+}
+.shipping-options-wrapper {
+  padding: 0 var(--padding-xs) var(--padding-4xs);
+  font-size: var(--body-medium-bold-size);
+}
+.nigeria-postal-service {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.nigeria-postal-service-no-tr-wrapper {
+  width: 49.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.shipping960102 {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.shipping960102-wrapper {
+  width: 49.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) var(--padding-10xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.checkbox-icon3 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.ups-express-shipping {
+  position: relative;
+  line-height: 1.5rem;
+}
+.checkbox-group,
+.frame-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox-group {
+  gap: var(--gap-5xs);
+}
+.frame-wrapper1 {
+  padding: 0 var(--padding-xs);
+  font-size: var(--body-medium-bold-size);
+}
+.nigeria-ups-shipping-container {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.nigeria-ups-shipping-full-tr-wrapper {
+  width: 49.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.shipping3010502 {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.shipping3010502-wrapper {
+  width: 49.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) var(--padding-11xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.checkbox-icon4 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.ems-postal-shipping {
+  position: relative;
+  line-height: 1.5rem;
+}
+.checkbox-container,
+.frame-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox-container {
+  gap: var(--gap-5xs);
+}
+.frame-wrapper2 {
+  padding: 0 var(--padding-xs) var(--padding-4xs);
+  font-size: var(--body-medium-bold-size);
+}
+.nigeria-postal-service1 {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.nigeria-postal-service-ems-wrapper {
+  width: 48.313rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.shipping3161132 {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.shipping3161132-wrapper {
+  width: 48.313rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.checkbox-icon5 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.dhl-express-shipping {
+  position: relative;
+  line-height: 1.5rem;
+}
+.checkbox-parent1,
+.frame-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox-parent1 {
+  gap: var(--gap-5xs);
+}
+.frame-wrapper3 {
+  padding: 0 var(--padding-xs) var(--padding-4xs);
+  font-size: var(--body-medium-bold-size);
+}
+.nigeria-dhl {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.nigeria-dhl-express-shipping-wrapper {
+  width: 48.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.shipping3946478 {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.shipping3946478-wrapper {
+  width: 48.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) 2.875rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.payment,
+.payment1 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.payment1 {
+  padding-left: var(--padding-13xl);
+}
+.payment {
+  position: relative;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.payment-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  font-size: var(--subheading-small-regular-size);
+}
+.frame-child,
+.line-wrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+}
+.line-wrapper {
+  width: 47.438rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2.937rem;
+  flex-shrink: 0;
+}
+.checkbox-icon6 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.image-13-icon {
+  width: 0.875rem;
+  height: 0.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.image-13-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.pay-by-credit {
+  position: relative;
+  line-height: 1.5rem;
+}
+.checkbox-parent2,
+.frame-wrapper4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox-parent2 {
+  gap: var(--gap-5xs);
+}
+.frame-wrapper4 {
+  padding: 0 var(--padding-5xs) var(--padding-10xl);
+  font-size: var(--body-medium-bold-size);
+}
+.checkbox-icon7 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.image-14-icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.image-14-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.paypal-express-checkout {
+  position: relative;
+  line-height: 1.5rem;
+}
+.checkbox-parent3,
+.frame-wrapper5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox-parent3 {
+  gap: var(--gap-5xs);
+}
+.frame-wrapper5 {
+  padding: 0 var(--padding-5xs) var(--padding-10xl);
+  font-size: var(--body-medium-bold-size);
+}
+.checkbox-icon8 {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1rem;
+}
+.paypal-express-checkout1 {
+  position: relative;
+  line-height: 1rem;
+}
+.pay-pal-option,
+.pay-pal-option-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pay-pal-option {
+  gap: var(--gap-5xs);
+}
+.pay-pal-option-wrapper {
+  padding: 0 var(--padding-5xs) var(--padding-79xl);
+}
+.frame-item {
+  position: absolute;
+  top: 2rem;
+  left: 0.063rem;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 47.438rem;
+  height: 0.063rem;
+}
+.review,
+.review1 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.review1 {
+  padding-left: var(--padding-13xl);
+}
+.review {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 2rem;
+  font-weight: 400;
+  display: inline-block;
+  min-width: 7.375rem;
+  z-index: 1;
+}
+.line-parent {
+  width: 47.438rem;
+  height: 4.563rem;
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--subheading-small-regular-size);
+}
+.review-your-order {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.review-your-order-summary-on-t-wrapper {
+  width: 44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.by-clicking-the {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.by-clicking-the-place-orderbut-wrapper {
+  width: 44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 6.562rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.background-shape {
+  align-self: stretch;
+  width: 24.063rem;
+  position: relative;
+  max-width: 100%;
+}
+.frame-container,
+.page-background {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.page-background {
+  width: 78.313rem;
+  height: 39rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  flex-shrink: 0;
+}
+.frame-container {
+  height: 168.938rem;
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  gap: 0.437rem;
+  text-align: left;
+  font-size: var(--body-small-regular-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}
+.check-out,
+.check-out-inner,
+.frame-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.check-out-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) 0 var(--padding-60xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.check-out {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 7.437rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--subheading-small-regular-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}
+@media screen and (max-width: 750px) {
+  .checkout {
+    font-size: var(--heading-small-medium-size);
+    line-height: 2.813rem;
+  }
+  .already-registered-parent {
+    flex-wrap: wrap;
+  }
+  .frame-container {
+    height: auto;
+  }
+  .check-out-inner {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .check-out {
+    gap: var(--gap-40xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .checkout {
+    font-size: var(--subheading-small-regular-size);
+    line-height: 2.125rem;
+  }
+  .already-registered,
+  .payment,
+  .review,
+  .shipping-method,
+  .sign-into-your {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .check-out {
+    gap: var(--gap-11xl);
+  }
+}

@@ -1,0 +1,105 @@
+.lip-balm-of,
+.product-two-image {
+  align-self: stretch;
+  position: relative;
+}
+.product-two-image {
+  height: 29.438rem;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.lip-balm-of {
+  font-size: var(--body-medium-bold-size);
+  line-height: 1.5rem;
+}
+.all-shades-available2,
+.natural-lip-balm {
+  align-self: stretch;
+  position: relative;
+  line-height: 1rem;
+}
+.product-two-info {
+  width: 20.688rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.price2 {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 2rem;
+}
+.product-two-price-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.div2 {
+  position: relative;
+  font-size: var(--body-big-medium-size);
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 4.875rem;
+  white-space: nowrap;
+}
+.product-two-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--hng-colour-secondary7-grey-070);
+}
+.button9 {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 4.938rem;
+}
+.component-10 {
+  align-self: stretch;
+  box-shadow: var(--shadow-small);
+  border-radius: var(--br-base);
+  background-color: var(--hgn-colour-secondary5-030);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  white-space: nowrap;
+  font-size: var(--body-medium-bold-size);
+}
+.product-two,
+.product-two-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.product-two-card {
+  align-self: stretch;
+  padding: 0;
+  gap: var(--gap-10xs);
+  z-index: 1;
+}
+.product-two {
+  flex: 1;
+  padding: 0 var(--padding-19xl) 0 0;
+  min-width: 17.188rem;
+  text-align: left;
+  font-size: var(--body-small-regular-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}

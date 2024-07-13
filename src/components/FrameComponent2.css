@@ -1,0 +1,61 @@
+.rectangle-icon,
+.unfading-beauty-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.rectangle-icon {
+  height: 38.5rem;
+  object-fit: cover;
+}
+.unfading-beauty-icon {
+  align-self: stretch;
+  max-height: 100%;
+}
+.open-your-eyes-to-see-your-unf1 {
+  height: 2.85rem;
+  width: 15.95rem;
+  position: relative;
+}
+.open-your-eyes-to-see-your-unf-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-2xl);
+}
+.unfading-beauty-group {
+  height: 8.75rem;
+  width: 19.563rem;
+  margin: 0 !important;
+  position: absolute;
+  top: 6.875rem;
+  left: 5rem;
+  border-radius: 0 var(--br-21xl) var(--br-21xl) var(--br-21xl);
+  background-color: var(--colour-secondary4-010);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-smi-2)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+  z-index: 1;
+}
+.frame-parent6,
+.vector-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vector-parent {
+  flex-direction: row;
+  position: relative;
+}
+.frame-parent6 {
+  flex-direction: column;
+}

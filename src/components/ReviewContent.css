@@ -1,0 +1,16 @@
+.review-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-157xl) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .review-content {
+    padding-bottom: var(--padding-95xl);
+    box-sizing: border-box;
+  }
+}

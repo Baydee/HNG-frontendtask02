@@ -1,0 +1,124 @@
+.nav-left-icon {
+  height: 4.375rem;
+  width: 13.313rem;
+  position: relative;
+}
+.button2 {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  color: inherit;
+  display: inline-block;
+  min-width: 2.75rem;
+}
+.component-6 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-13xl);
+}
+.button3 {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  color: inherit;
+  display: inline-block;
+  min-width: 5.875rem;
+  white-space: nowrap;
+}
+.component-7 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-6xs);
+}
+.button4 {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  color: inherit;
+  display: inline-block;
+  min-width: 2.313rem;
+}
+.component-8,
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component-8 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-17xl);
+}
+.nav-buttons {
+  margin: 0;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-medium-bold-size);
+  color: var(--color-black);
+  font-family: var(--footer-small-regular);
+}
+.person-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.person-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.heart-icon,
+.shopping-bag-tag {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.shopping-bag-tag {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container,
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.container {
+  align-self: stretch;
+  background-color: var(--hgn-secondary6-020);
+  justify-content: space-between;
+  padding: 0 var(--padding-29xl) 0 0;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1225px) {
+  .container {
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav-buttons {
+    display: none;
+  }
+}
